@@ -1,0 +1,344 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;;
+    
+}
+
+body {
+    background-image: url(./bilder/bakrgundstartsida.jpg);
+
+}
+h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(#440047, #b4b7b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     text-align: center;
+    font-family: 'Gumball', sans-serif;
+font-size: 40px;
+}
+
+h2 {
+    -webkit-text-stroke-width: 0.001px;
+    -webkit-text-stroke-color: rgb(249, 228, 252);
+    background: -webkit-linear-gradient(#b54092, #b4b7b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     text-align: center;
+    font-family: 'Gumball', sans-serif;
+font-size: 40px; 
+}
+
+h3{
+    -webkit-text-stroke-width: 0.001px;
+    -webkit-text-stroke-color: rgb(249, 228, 252);
+    background: -webkit-linear-gradient(#b54092, #b4b7b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     text-align: center;
+    font-family: 'Gumball', sans-serif;
+font-size: 30px;   
+}
+
+h4 {
+    -webkit-text-stroke-width: 0.001px;
+    -webkit-text-stroke-color: rgb(249, 228, 252);
+    background: -webkit-linear-gradient(#b54092, #b4b7b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     text-align: center;
+    font-family: 'Gumball', sans-serif;
+font-size: 30px;      
+}
+
+p {
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000000;
+    color: #24006b;
+     text-align: center;
+    font-family: 'Gumball', sans-serif;
+font-size: 20px;   
+}
+
+
+img {
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.kontainerstartsida h2 {
+    text-align: center;
+
+}
+
+.kontainerstartsida figure {
+    width: 100%;
+    text-align: center;
+}
+
+.kontainerstartsida figure img {
+    width: 50%;
+
+}
+
+.kontainerstartsida .meny {
+    display: flex;
+    /*horisontell*/
+    gap: 20px;
+    justify-content: center;
+}
+
+.kontainerstartsida .meny li {
+    list-style-type: none;
+
+}
+
+.kontainerstartsida .meny a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ccffe3;
+    padding: 5px;
+    width: 130px;
+    height: 45px;
+    display: inline-block;
+    font-size: smaller;
+    box-shadow: 1px 1px 2px;
+    box-shadow: #9c8f8f;
+    text-decoration-color: #efeeee;
+    font-family: 'Gumball', sans-serif;
+
+}
+
+.kontainer2 .meny a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ccffe3;
+    padding: 5px;
+    width: 130px;
+    height: 45px;
+    display: inline-block;
+    font-size: smaller;
+    box-shadow: 1px 1px 2px;
+    box-shadow: #1e1d1d;
+    text-decoration-color: #efe2e2;
+    font-family: 'Gumball', sans-serif;
+}
+
+.kontainer3 .meny a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ccffe3;
+    padding: 5px;
+    width: 130px;
+    height: 45px;
+    display: inline-block;
+    font-size: smaller;
+    box-shadow: 1px 1px 2px;
+    box-shadow: #1e1d1d;
+    text-decoration-color: #1e1d1d;
+    font-family: 'Gumball', sans-serif;
+}
+
+.kontainer4 .meny a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ccffe3;
+    padding: 5px;
+    width: 130px;
+    height: 45px;
+    display: inline-block;
+    font-size: smaller;
+    box-shadow: 1px 1px 2px;
+    box-shadow: #1e1d1d;
+    text-decoration-color: #1e1d1d;
+    font-family: 'Gumball', sans-serif;
+}
+
+.kontainer5 .meny a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ccffe3;
+    padding: 5px;
+    width: 130px;
+    height: 45px;
+    display: inline-block;
+    font-size: smaller;
+    box-shadow: 1px 1px 2px;
+    box-shadow: #1e1d1d;
+    text-decoration-color: #1e1d1d;
+    font-family: 'Gumball', sans-serif;
+}
+
+.kontainer2 .meny {
+    display: flex;
+    /*horisontell*/
+    gap: 20px;
+    justify-content: center;
+}
+
+.kontainer2 .meny li {
+    list-style-type: none;
+
+}
+
+.kontainer2 h2 {
+    text-align: center;
+
+}
+
+.kontainer2 figure {
+    width: 100%;
+    text-align: center;
+}
+
+.kontainer2 figure img {
+    width: 50%;
+
+}
+
+.kontainer3 .meny {
+    display: flex;
+    /*horisontell*/
+    gap: 20px;
+    justify-content: center;
+}
+
+.kontainer3 .meny li {
+    list-style-type: none;
+
+}
+
+.kontainer3 h2 {
+    text-align: center;
+
+}
+
+.kontainer3 figure {
+    width: 100%;
+    text-align: center;
+}
+
+.kontainer3 figure img {
+    width: 50%;
+
+}
+
+.kontainer4 .meny {
+    display: flex;
+    /*horisontell*/
+    gap: 20px;
+    justify-content: center;
+}
+
+.kontainer4 .meny li {
+    list-style-type: none;
+
+}
+
+.kontainer4 h2 {
+    text-align: center;
+
+}
+
+.kontainer4 figure {
+    width: 100%;
+    text-align: center;
+}
+
+.kontainer4 figure img {
+    width: 50%;
+
+}
+
+.kontainer5 .meny {
+    display: flex;
+    /*horisontell*/
+    gap: 20px;
+    justify-content: center;
+}
+
+.kontainer5 .meny li {
+    list-style-type: none;
+
+}
+
+.kontainer5 h2 {
+    text-align: center;
+
+}
+
+.kontainer5 figure {
+    width: 100%;
+    text-align: center;
+}
+
+.kontainer5 figure img {
+    width: 50%;
+
+}
+.kontainerstartsida .meny .aktiv {
+    background-color: #a8f8cc;
+}
+
+
+.kontainer2 .meny .aktiv {
+    background-color: #a8f8cc;
+}
+
+.kontainer3 .meny .aktiv {
+    background-color: #a8f8cc;
+}
+
+
+.kontainer4 .meny .aktiv {
+    background-color: #a8f8cc;
+}
+
+
+.kontainer5 .meny .aktiv {
+    background-color: #a8f8cc;
+}
+
+.kontainerstartsida .meny a:hover {
+    background-color: #a8f8cc;
+}
+
+.kontainer2 .meny a:hover {
+    background-color: #a8f8cc;
+}
+
+.kontainer3 .meny a:hover {
+    background-color: #a8f8cc;
+}
+
+.kontainer4 .meny a:hover {
+    background-color: #a8f8cc;
+}
+
+.kontainer5 .meny a:hover {
+    background-color: #a8f8cc;
+}
+ button {
+    background-color: #d058d7;
+ }
